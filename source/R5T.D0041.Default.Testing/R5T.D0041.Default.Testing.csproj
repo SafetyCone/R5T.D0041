@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.D0040\source\R5T.D0040.Default\R5T.D0040.Default.csproj" />
+    <ProjectReference Include="..\R5T.D0041.Default\R5T.D0041.Default.csproj" />
+    <ProjectReference Include="..\R5T.D0041.Testing\R5T.D0041.Testing.csproj" />
+  </ItemGroup>
+
+</Project>
