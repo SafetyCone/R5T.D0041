@@ -1,0 +1,4 @@
+R5T.D0041.Base - Base definitions library remote repository location services, stringly-typed, asynchronous.
+
+Goals
+

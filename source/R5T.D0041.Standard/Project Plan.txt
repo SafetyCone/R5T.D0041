@@ -1,0 +1,4 @@
+R5T.D0041.Standard - Standard aggregation library for remote repository location services, stringly-typed, asynchronous.
+
+Goals
+

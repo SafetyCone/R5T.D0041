@@ -1,0 +1,4 @@
+R5T.D0041.Default - Default implementations library for remote repository location services, stringly-typed, asynchronous.
+
+Goals
+
