@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
 using R5T.D0040;
 using R5T.T0010;
 
-using R5T.Magyar.Extensions;
+using R5T.Magyar.Extensions;using R5T.T0064;
 
 
 namespace R5T.D0041.Default
-{
-    public class RemoteRepositoryLocationConverter : IRemoteRepositoryLocationConverter
+{[ServiceImplementationMarker]
+    public class RemoteRepositoryLocationConverter : IRemoteRepositoryLocationConverter,IServiceImplementation
     {
         public const int SshRemoteRepositoryLocationRequiredTokenCount = 3;
 

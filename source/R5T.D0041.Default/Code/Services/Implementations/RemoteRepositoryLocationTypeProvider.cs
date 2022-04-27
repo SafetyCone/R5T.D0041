@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-using R5T.T0010;
+using R5T.T0010;using R5T.T0064;
 
 
 namespace R5T.D0041.Default
-{
-    public class RemoteRepositoryLocationTypeProvider : IRemoteRepositoryLocationTypeProvider
+{[ServiceImplementationMarker]
+    public class RemoteRepositoryLocationTypeProvider : IRemoteRepositoryLocationTypeProvider,IServiceImplementation
     {
         public const string HttpsIndicatorLowered = "https";
         public const string GitIndicatorLowered = Constants.GitName;
